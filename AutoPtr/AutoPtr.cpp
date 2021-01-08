@@ -19,8 +19,9 @@ int main()
 
 void function()
 {
-	auto_ptr<int> iAP(new int(10));
-	cout << "iAP:" << *iAP << endl;
+	auto_ptr<int> iAP(new int(16));
+	cout << "*iAP:" << *iAP << endl;
+	cout << "*iAP.get():" << *iAP.get() << endl;
 
 	auto_ptr<string> strArrayAP[ARRAY_LENGTH] =
 	{
@@ -38,13 +39,12 @@ void function()
 
 	cout << endl;
 
-	unsigned int targetIndex = 2;
 	auto_ptr<string> strAP;
-	strAP = strArrayAP[targetIndex];
+	strAP = strArrayAP[2];
 
 	for (size_t i = 0; i < ARRAY_LENGTH; i++)
 	{
-		if (i == targetIndex)
+		if (strArrayAP[i].get() == nullptr)
 		{
 			cout << "strArrayAP[" << i << "]'s _MyPtr is null!" << endl;
 			continue;
