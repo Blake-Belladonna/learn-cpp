@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IO缓冲区遗留问题", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "文件操作", "文件操作\文件操作.vcxproj", "{BA7BFA33-55D5-410A-B86D-29A854E875B6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "我的String类型", "我的String类型\我的String类型.vcxproj", "{C0370497-8796-48AC-8F1D-8751257E04BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -351,6 +353,14 @@ Global
 		{BA7BFA33-55D5-410A-B86D-29A854E875B6}.Release|x64.Build.0 = Release|x64
 		{BA7BFA33-55D5-410A-B86D-29A854E875B6}.Release|x86.ActiveCfg = Release|Win32
 		{BA7BFA33-55D5-410A-B86D-29A854E875B6}.Release|x86.Build.0 = Release|Win32
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Debug|x64.ActiveCfg = Debug|x64
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Debug|x64.Build.0 = Debug|x64
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Debug|x86.Build.0 = Debug|Win32
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Release|x64.ActiveCfg = Release|x64
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Release|x64.Build.0 = Release|x64
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Release|x86.ActiveCfg = Release|Win32
+		{C0370497-8796-48AC-8F1D-8751257E04BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
